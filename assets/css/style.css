@@ -17,6 +17,7 @@ body {
     float: left;
     padding: 10px;
 }
+/*Sticky Footer at bottom of every page*/
 .footer {
     flex-shrink: 0;
     text-align: center;
