@@ -24,12 +24,30 @@ body {
     border-color: #4aaaa5;
     background-color: #666666;
 }
+/*About me Title*/
 .title-1 {
     color: #4aaaa5;
     border-bottom: 4px solid;
     border-color: #cccccc;
     margin: 10px;
 }
+/*Portfolio Title*/
+.title-2 {
+    color: #4aaaa5;
+    border-bottom: 4px solid;
+    border-color: #cccccc;
+    margin: 10px;
+    padding: 10px;
+}
+/*Contact Title*/
+.title-3 {
+    color: #4aaaa5;
+    border-bottom: 4px solid;
+    border-color: #cccccc;
+    margin: 5px;
+    padding: 10px;
+}
+/*Bio Text on index.html*/
 .bio {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
@@ -39,12 +57,14 @@ body {
     margin: 5px;
     padding: 5px;
 }
+/* Header at the top of every page*/
 .header {
     background-color: #ffffff;
     border-bottom: 5px solid;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*My name at the top of the page*/
 .Name {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -53,15 +73,18 @@ body {
     margin: 20px;
     padding: 10px;
 }
+/*Navigation buttons at the top of the page*/
 .buttons {
     text-align: right;
     margin: 10px;
 }
+/*Right now just profile picture*/
 img {
     margin: 5px;
     padding: 5px;
     float: left;
 }
+/*Decoration for Navigation buttons*/
 a {
     text-decoration: none;
     color: #777777;
