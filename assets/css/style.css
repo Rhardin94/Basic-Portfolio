@@ -8,6 +8,7 @@ body {
     overflow: auto;
     clear: both;
 }
+/*Span of each page*/
 .container {
     flex: 1 0 auto;
     width: 960px;
