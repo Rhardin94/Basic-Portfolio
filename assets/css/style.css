@@ -48,11 +48,12 @@ body {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 250px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
 }
 .buttons {
     text-align: right;
+    margin: 10px;
 }
 img {
     margin: 5px;
