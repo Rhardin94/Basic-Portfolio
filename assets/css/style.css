@@ -15,6 +15,7 @@ body {
     border-color: #dddddd;
     margin: auto;
     float: left;
+    padding: 10px;
 }
 .footer {
     flex-shrink: 0;
