@@ -1,11 +1,10 @@
-html {
+html, body {
     height: 100%;
 }
 body {
     background-image: url("../images/gravel.png");
     display: flex;
     flex-direction: column;
-    height: 100%;
     overflow: auto;
     clear: both;
 }
@@ -14,6 +13,8 @@ body {
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
+    margin: auto;
+    float: left;
 }
 .footer {
     flex-shrink: 0;
@@ -24,20 +25,37 @@ body {
 }
 .title-1 {
     color: #4aaaa5;
+    border-bottom: 4px solid;
+    border-color: #cccccc;
 }
 .bio {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 900px;
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
 }
 .header {
     background-color: #ffffff;
+    border-bottom: 5px solid;
     border-color: #cccccc;
-    border-bottom: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float: left;
 }
 .Name {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+.buttons {
+    text-align: right;
+}
+img {
+    margin: 5px;
+    padding: 5px;
+    float: left;
 }
