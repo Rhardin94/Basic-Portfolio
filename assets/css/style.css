@@ -16,7 +16,7 @@ body {
     border-color: #dddddd;
     margin: auto;
     float: left;
-    padding: 10px;
+    padding: 5px;
 }
 /*Sticky Footer at bottom of every page*/
 .footer {
@@ -25,6 +25,7 @@ body {
     border-top: 8px solid;
     border-color: #4aaaa5;
     background-color: #666666;
+    padding: 10px;
 }
 /*About Me Title*/
 .title-1 {
@@ -32,6 +33,7 @@ body {
     border-bottom: 4px solid;
     border-color: #cccccc;
     margin: 10px;
+    font-size: 20px;
 }
 /*Portfolio Title*/
 .title-2 {
@@ -39,15 +41,15 @@ body {
     border-bottom: 4px solid;
     border-color: #cccccc;
     margin: 10px;
-    padding: 10px;
+    font-size: 20px;
 }
 /*Contact Title*/
 .title-3 {
     color: #4aaaa5;
     border-bottom: 4px solid;
     border-color: #cccccc;
-    margin: 5px;
-    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
 }
 /*Bio Text on index.html*/
 .bio {
@@ -66,19 +68,23 @@ body {
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/*My name at the top of the page*/
+/*My name at the top of each page*/
 .Name {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 250px;
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
+    float: left;
 }
 /*Navigation buttons at the top of the page*/
 .buttons {
-    text-align: right;
+    position: relative;
+    top: 40px;
+    right: 20px;
     margin: 10px;
+    float: right;
 }
 /*Right now just profile picture*/
 img {
