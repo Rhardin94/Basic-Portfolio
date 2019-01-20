@@ -41,7 +41,8 @@ body {
     border-bottom: 4px solid;
     border-color: #cccccc;
     margin: 10px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 30px;
 }
 /*Contact Title*/
 .title-3 {
@@ -49,7 +50,8 @@ body {
     border-bottom: 4px solid;
     border-color: #cccccc;
     margin: 10px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 30px;
 }
 /*Bio Text on index.html*/
 .bio {
