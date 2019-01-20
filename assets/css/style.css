@@ -8,10 +8,30 @@ body {
     overflow: auto;
     clear: both;
 }
-/*Span of each page*/
+/*Span of About Me page*/
 .container {
     flex: 1 0 auto;
     width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: auto;
+    float: left;
+    padding: 5px;
+}
+/*Span of Portfolio page*/
+.container-2 {
+    flex: 1 0 auto;
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: auto;
+    float: left;
+    padding: 5px;
+}
+/*Span on Contact Me page*/
+.container-3 {
+    flex: 1 0 auto;
+    width: 800px;
     background-color: #ffffff;
     border-color: #dddddd;
     margin: auto;
@@ -93,9 +113,46 @@ img {
     margin: 5px;
     padding: 5px;
     float: left;
+    width: 200px;
+    height: 200px;
 }
 /*Decoration for Navigation buttons*/
 a {
     text-decoration: none;
     color: #777777;
+}
+/*Input boxes on contact.html*/
+.inputs {
+    margin: 5px;
+    padding: 5px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Name input box on contact page*/
+.input-1 {
+    height: 20px;
+    width: 750px;
+}
+/*Email input box on contact page*/
+.input-2 {
+    height: 20px;
+    width: 750px;
+}
+/*Message input box on contact page*/
+.input-3 {
+    width: 750px;
+    height: 200px;
+}
+/*Submit button of contact me page*/
+.submit {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
 }
