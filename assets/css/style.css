@@ -46,7 +46,7 @@ body {
     border-color: #4aaaa5;
     background-color: #666666;
     padding: 10px;
-}
+    }
 /*About Me Title*/
 .title-1 {
     color: #4aaaa5;
@@ -107,6 +107,7 @@ body {
     right: 20px;
     margin: 10px;
     float: right;
+    font-size: 17px;
 }
 /*Right now just profile picture*/
 img {
@@ -155,4 +156,22 @@ a {
     height: 40px;
     width: 100px;
     font-size: 20px;
+}
+
+/*Project image links*/
+.img-3  {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width: 100%;
+}
+.img-3 img {
+    max-width: 100%;
+}
+.img-3 h4 {
+    position: absolute;
+    bottom: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
 }
