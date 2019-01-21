@@ -6,9 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     overflow: auto;
-    clear: both;
 }
-/*Span of About Me page*/
+/*Span of About Me and Portfolio page*/
 .container {
     flex: 1 0 auto;
     width: 960px;
@@ -16,16 +15,6 @@ body {
     border-color: #dddddd;
     margin: auto;
     float: left;
-    padding: 5px;
-}
-/*Span of Portfolio page*/
-.container-2 {
-    position: relative;
-    flex: 1 0 auto;
-    width: 960px;
-    background-color: #ffffff;
-    border-color: #dddddd;
-    margin: auto;
     padding: 5px;
 }
 /*Span on Contact Me page*/
