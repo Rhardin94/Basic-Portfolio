@@ -20,12 +20,12 @@ body {
 }
 /*Span of Portfolio page*/
 .container-2 {
+    position: relative;
     flex: 1 0 auto;
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
     margin: auto;
-    float: left;
     padding: 5px;
 }
 /*Span on Contact Me page*/
@@ -90,7 +90,7 @@ body {
     border-bottom: 5px solid;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 275px;
+    padding-left: 300px;
 }
 /*My name at the top of each page*/
 .Name {
@@ -98,14 +98,14 @@ body {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 250px;
-    margin: 20px;
+    margin: 0;
     padding: 20px;
     float: left;
 }
 /*Navigation buttons at the top of the page*/
 .buttons {
     position: relative;
-    top: 40px;
+    top: 20px;
     right: 20px;
     margin: 10px;
     float: right;
@@ -116,7 +116,7 @@ body {
 /*Right now just profile picture*/
 img {
     margin: 5px;
-    padding: 5px;
+    padding: 0;
     float: left;
     width: 200px;
     height: 200px;
@@ -163,15 +163,17 @@ a {
 }
 
 /*Project image links*/
-.images {
-    float: left;
+.content-box img {
+    width: 200px;
+    height: auto;
 }
-.img-1 {
+.content-box {
     position: relative;
 }
-.img-1 h4 {
+.content-box h4 {
     position: absolute;
-    bottom: 20px;
+    top: 20px;
     background-color: #4aaaa5;
     color: #ffffff;
+
 }
