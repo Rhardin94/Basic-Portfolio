@@ -74,7 +74,7 @@ body {
     padding: 10px;
     font-size: 30px;
 }
-/*Bio Text on index.html*/
+/*Bio Text and Image on index.html*/
 .bio {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,14 +83,16 @@ body {
     background-color: #ffffff;
     margin: 5px;
     padding: 5px;
+    float: left;
 }
 /* Header at the top of every page*/
 .header {
     background-color: #ffffff;
     border-bottom: 5px solid;
-    border-color: #cccccc;
+    border-color: #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 300px;
+    margin-bottom: 20px;
 }
 /*My name at the top of each page*/
 .Name {
@@ -115,7 +117,7 @@ body {
 }
 /*Right now just profile picture*/
 img {
-    margin: 5px;
+    margin: 5px 15px;
     padding: 0;
     float: left;
     width: 200px;
@@ -162,7 +164,6 @@ a {
     width: 100px;
     font-size: 20px;
 }
-
 /*Project image links*/
 .content-box img {
     width: 250px;
@@ -180,6 +181,7 @@ a {
     margin: 0;
     padding: 0;
 }
+/*Textblocks containing links over each portfolio image*/
 .content-box h4 {
     position: absolute;
     bottom: 60px;
@@ -193,10 +195,12 @@ a {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*Hover effects for portfolio images*/
 h4:hover {
     color: #4aaaa5;
     background-color: #666666;
 }
+/*Hover effects for navigation tabs*/
 nav a:hover {
     color: #4aaaa5;
 }
