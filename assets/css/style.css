@@ -13,7 +13,7 @@ body {
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
-    margin: auto;
+    margin: 20px auto 80px;
     float: left;
     padding: 10px;
 }
@@ -23,10 +23,9 @@ body {
     width: 800px;
     background-color: #ffffff;
     border-color: #dddddd;
-    margin: auto;
+    margin: 20px auto 80px;
     float: left;
     padding: 5px;
-
 }
 /*Span of Contact Me Page*/
 .container-3 {
@@ -34,9 +33,9 @@ body {
     width: 800px;
     background-color: #ffffff;
     border-color: #dddddd;
-    margin: auto;
+    margin: 20px auto 90px;
     float: left;
-    padding: 5px;
+    padding: 15px;
 }
 /*Sticky Footer at bottom of every page*/
 .footer {
@@ -89,7 +88,7 @@ body {
 .header {
     background-color: #ffffff;
     border-bottom: 5px solid;
-    border-color: #777777;
+    border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 300px;
     margin-bottom: 20px;
@@ -155,7 +154,6 @@ a {
 .submit {
     position: relative;
     left: 20px;
-    top: 20px;
     background-color: #4aaaa5;
     color: #ffffff;
     margin: 5px;
