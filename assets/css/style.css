@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     overflow: auto;
 }
-/*Span of About Me and Portfolio page*/
+/*Span of About Me Page*/
 .container {
     flex: 1 0 auto;
     width: 960px;
@@ -15,9 +15,20 @@ body {
     border-color: #dddddd;
     margin: auto;
     float: left;
-    padding: 5px;
+    padding: 10px;
 }
-/*Span on Contact Me page*/
+/*Span of Portfolio Page*/
+.container-2 {
+    flex: 1 0 auto;
+    width: 800px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: auto;
+    float: left;
+    padding: 5px;
+
+}
+/*Span of Contact Me Page*/
 .container-3 {
     flex: 1 0 auto;
     width: 800px;
@@ -155,15 +166,26 @@ a {
 .content-box img {
     width: 200px;
     height: auto;
+    border: 0;
+    padding: 0;
+    margin: 40px;
+    margin-right: 20px;
 }
+/*Divs containing image and text for absolute positioning to work*/
 .content-box {
     position: relative;
     border: 0;
+    float: left;
 }
 .content-box h4 {
     position: absolute;
-    top: 20px;
+    bottom: 15px;
+    left: 12px;
+    width: 175px;
     background-color: #4aaaa5;
     color: #ffffff;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
 
 }
