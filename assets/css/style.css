@@ -20,7 +20,7 @@ body {
 /*Span of Portfolio Page*/
 .container-2 {
     flex: 1 0 auto;
-    width: 800px;
+    width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
     margin: 20px auto 80px;
@@ -30,7 +30,7 @@ body {
 /*Span of Contact Me Page*/
 .container-3 {
     flex: 1 0 auto;
-    width: 800px;
+    width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
     margin: 20px auto 90px;
@@ -138,16 +138,16 @@ a {
 /*Name input box on contact page*/
 .input-1 {
     height: 20px;
-    width: 750px;
+    width: 99%;
 }
 /*Email input box on contact page*/
 .input-2 {
     height: 20px;
-    width: 750px;
+    width: 99%;
 }
 /*Message input box on contact page*/
 .input-3 {
-    width: 750px;
+    width: 99%;
     height: 200px;
 }
 /*Submit button of contact me page*/
