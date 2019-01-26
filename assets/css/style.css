@@ -48,33 +48,16 @@ body {
     padding: 10px;
     color: #ffffff;
     }
-/*About Me Title*/
-.title-1 {
+/*Title at top of content*/
+.title{
     color: #4aaaa5;
     border-bottom: 4px solid;
     border-color: #cccccc;
     margin: 10px;
-    padding: 15px;
+    padding: 0px 0px 15px 5px;
     font-size: 30px;
 }
-/*Portfolio Title*/
-.title-2 {
-    color: #4aaaa5;
-    border-bottom: 4px solid;
-    border-color: #cccccc;
-    margin: 10px;
-    padding: 10px;
-    font-size: 30px;
-}
-/*Contact Title*/
-.title-3 {
-    color: #4aaaa5;
-    border-bottom: 4px solid;
-    border-color: #cccccc;
-    margin: 10px;
-    padding: 10px;
-    font-size: 30px;
-}
+
 /*Bio Text and Image on index.html*/
 .bio {
     color: #777777;
@@ -196,7 +179,7 @@ a {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/*Hover effects for portfolio images*/
+/*Hover effects for portfolio image textbox*/
 h4:hover {
     color: #4aaaa5;
     background-color: #666666;
@@ -205,7 +188,15 @@ h4:hover {
 nav a:hover {
     color: #4aaaa5;
 }
+/*Fix for reset.css to h1 tag*/
 h1 {
     font-weight: bold;
     font-style: normal;
+}
+.pic:hover {
+    opacity: 0.5;
+}
+.submit:hover {
+    background-color: #666666;
+    color: #4aaaa5;
 }
