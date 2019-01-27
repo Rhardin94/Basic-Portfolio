@@ -193,18 +193,27 @@ h1 {
     font-weight: bold;
     font-style: normal;
 }
-/*GitHub link over Profil Picture hover effect*/
+/*GitHub link over Profile Picture hover effect*/
 .pic:hover {
     opacity: 0.5;
 }
+/*Profile Picture Div sizing*/
 .pic {
     width: 250px;
     height: 200px;
     float: left;
-    margin: -35px 20px 20px 10px;
+    margin: -35px 20px 20px 0px;
 }
 /*Hover effect of Submit Button on Contact Page*/
 .submit:hover {
     background-color: #666666;
     color: #4aaaa5;
+}
+/*Submit button active effect*/
+.submit:active {
+    color: red;
+}
+/*nav button active effects*/
+nav a:active {
+    color: red;
 }
